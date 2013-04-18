@@ -3,6 +3,8 @@ atk4-boot-template
 
 A bootstrap template for Agile toolkit 4
 
+![Alt text](/aboot-template.png "Optional title")
+
 To utilize most of the template you have to add xavoc-addons to your application root ie
 
 Your_Application
