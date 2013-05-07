@@ -3,6 +3,13 @@
 @import "atk-main.less";
 @import "less/bootstrap.less";
 
+
+.front_blocks{
+	p {
+		text-align: justify;
+	}	
+}
+
 .atk-menu ul {
 	.nav;
 }
@@ -14,5 +21,32 @@
 .navbar .brand {
 	padding: 0px 50px;
 	margin-top: 20px;
-	
+	border: none;
+	.navbar-inner{
+		border: none;
+	}
+}
+
+.footer{
+	.navbar;
+	.footer-inner{
+		.navbar-inner;
+		min-height: 150px;
+		border: none;
+		.border-radius(0px);
+	}
+}
+
+.hero-unit {
+	img{
+		padding: 2px;
+		margin: 20px;
+	}
+	p{
+		text-align: justify;
+	}
+}
+
+.text-justify {
+	text-align: justify;
 }
